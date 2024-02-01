@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node app",
-     "build": "echo 'No build step defined'"
+    "build": "npm install && zip -r dist/NodejsApp.zip ."
   },
   "description": "NodejsApp",
   "author": {
